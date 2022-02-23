@@ -1,0 +1,23 @@
+l=[]
+n=int(input("Enter n:"))
+for i in range(n):
+    e=int(input())
+    l.append(e)
+min=l[0]
+max=l[0]
+for i in range(i,n):
+    if l[i]<min:
+        min=l[i]
+print("min=",min)
+for i in range(i,n):
+    if l[i]>max:
+      max=l[i]
+print("max=",max)
+output:-Enter n:
+3
+34
+67
+98
+min= 34
+max= 98
+
